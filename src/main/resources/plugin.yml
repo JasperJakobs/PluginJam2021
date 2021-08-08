@@ -1,0 +1,6 @@
+name: Pluginjam
+version: ${project.version}
+main: nl.jasperjakobs.pluginjam.Pluginjam
+api-version: 1.17
+authors: [ ShotCode ]
+description: Minecraft but everytime you kill a mob you inherit their abilities.
