@@ -179,4 +179,55 @@ public enum MobTypes {
             case WITHER -> "Wither";
         };
     }
+    
+    public String getAbilities() {
+        return switch (this) {
+            case PLAYER -> "";
+            case AXOLOTL -> "Breath Underwater ⏺ Swim Faster";
+            case BAT -> "Fly";
+            case MOOSHROOM -> "Milkable";
+            case BROWN_MOOSHROOM -> "Milkable";
+            case CHICKEN -> "No Fall Damage ⏺ Slow Fall";
+            case TROPICAL_FISH -> "Breathe Underwater ⏺ Swim Faster";
+            case COD -> "Breathe Underwater ⏺ Swim Faster";
+            case SALMON -> "Breathe Underwater ⏺ Swim Faster";
+            case PUFFERFISH -> "Breathe Underwater ⏺ Swim Faster";
+            case COW -> "Milkable";
+            case HORSE -> "Walk Faster ⏺ Jump Higher";
+            case MULE -> "Walk Faster ⏺ Jump Higher";
+            case DONKEY -> "Walk Faster ⏺ Jump Higher";
+            case SKELETON_HORSE -> "Walk Faster ⏺ Jump Higher";
+            case ZOMBIE_HORSE -> "Walk Faster ⏺ Jump Higher";
+            case PARROT -> "Fly";
+            case SQUID -> "Breathe Underwater";
+            case GLOW_SQUID -> "Breathe Underwater";
+            case RABBIT -> "Jump Higher";
+            case SHEEP -> "Sheerable";
+            case SNOW_GOLEM -> "Shoot Snowballs";
+            case STRIDER -> "Walk On Lava";
+            case BEE -> "Fly";
+            case SPIDER -> "Walk Up Walls";
+            case CAVE_SPIDER -> "Walk Up Walls";
+            case DOLPHIN -> "Swim Faster ⏺ Walk Slower";
+            case ENDERMAN -> "Teleport ⏺ Waterphobic";
+            case GOAT -> "Jump Higher ⏺ Milkable";
+            case IRON_GOLEM -> "Slam People In The Air";
+            case LLAMA -> "Spit";
+            case TRADER_LLAMA -> "Spit";
+            case BLAZE -> "Fly ⏺ Shoot Fireballs ⏺ Fire Resistant";
+            case CREEPER -> "Explode";
+            case DROWNED -> "Breathe Underwater";
+            case ELDER_GUARDIAN -> "Breathe Underwater ⏺ Shoot Beams ⏺ Mining Fatigue";
+            case GHAST -> "Fly";
+            case GUARDIAN -> "Breathe Underwater ⏺ Shoot Beams";
+            case ZOMBIE -> "Burns In Daylight";
+            case HUSK -> "Burns In Daylight";
+            case ZOMBIE_VILLAGER -> "Burns In Daylight";
+            case PHANTOM -> "Fly ⏺ Burns In Daylight";
+            case SKELETON -> "Homing Arrows ⏺ Burns In Daylight";
+            case WITHER_SKELETON -> "Homing Arrows ⏺ Burns In Daylight";
+            case ENDER_DRAGON -> "Fly ⏺ Dragon Breath";
+            case WITHER -> "Fly ⏺ Shoot Stars";
+        };
+    }
 }

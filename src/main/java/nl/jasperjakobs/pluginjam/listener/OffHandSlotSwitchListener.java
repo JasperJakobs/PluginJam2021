@@ -26,7 +26,7 @@ public class OffHandSlotSwitchListener implements Listener {
         if (playerData.getCurrentInheritedEntity().equals(MobTypes.CREEPER)) {
 
 
-            player.getWorld().createExplosion(location, 3, false, true);
+            player.getWorld().createExplosion(location, 5, false, true);
         }
 
         if (playerData.getCurrentInheritedEntity().equals(MobTypes.ENDERMAN)) {
